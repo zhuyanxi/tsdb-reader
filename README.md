@@ -125,6 +125,8 @@ for series in block.series(0) {
 # }
 ```
 
+A complete, working POC implementation can be found here: https://github.com/zhuyanxi/migrate-tsdb
+
 ## Threading model
 
 `ChunkReader` is `Send + Sync`: chunk segments can be decoded from several
